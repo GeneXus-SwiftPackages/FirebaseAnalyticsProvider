@@ -8,6 +8,8 @@ import GXCoreBL
 public class GXFirebaseAnalyticsExtensionLibrary: NSObject, GXExtensionLibraryProtocol {
 	
 	public func initializeExtensionLibrary(withContext context: GXExtensionLibraryContext) {
+		FirebaseCommonInitialization.initializeIfNeeded()
+		
 		GXCoreBLServices.registerAnalyticsService(GXFirebaseAnalyticsService.sharedInstance)
 	}
 }
