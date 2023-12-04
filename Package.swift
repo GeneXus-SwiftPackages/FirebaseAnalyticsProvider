@@ -4,10 +4,10 @@ import PackageDescription
 let GX_FC_LAST_VERSION = Version("1.3.0-beta")
 
 let package = Package(
-	name: "FirebaseProivders",
+	name: "FirebaseProviders",
 	platforms: [.iOS(.v11), .macCatalyst(.v13), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v7)],
 	products: [
-		.library(name: "FirebaseAnalyticsProivder", targets: ["FirebaseAnalyticsProivder"]),
+		.library(name: "FirebaseAnalyticsProvider", targets: ["FirebaseAnalyticsProvider"]),
 		.library(name: "FirebaseCrashlyticsProvider", targets: ["FirebaseCrashlyticsProvider"]),
 		.library(name: "FirebaseRemoteConfigurationProivder", targets: ["FirebaseRemoteConfigurationProvider"])
 	],
@@ -18,7 +18,7 @@ let package = Package(
 		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.0.0"))
 	],
 	targets: [
-		.target(name: "FirebaseAnalyticsProivder",
+		.target(name: "FirebaseAnalyticsProvider",
 				dependencies: [
 					.product(name: "GXCoreModule_Common_Analytics", package: "GXCoreModule_Common_Analytics"),
 					.product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
