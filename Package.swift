@@ -5,7 +5,7 @@ let GX_FC_LAST_VERSION = Version("1.3.0-beta")
 
 let package = Package(
 	name: "FirebaseProviders",
-	platforms: [.iOS(.v11), .macCatalyst(.v13), .macOS(.v10_13), .tvOS(.v12), .watchOS(.v7)],
+	platforms: [.iOS(.v12), .tvOS(.v12), .watchOS(.v7)],
 	products: [
 		.library(name: "FirebaseAnalyticsProvider", targets: ["FirebaseAnalyticsProvider"]),
 		.library(name: "FirebaseCrashlyticsProvider", targets: ["FirebaseCrashlyticsProvider"]),
@@ -21,7 +21,7 @@ let package = Package(
 		.target(name: "FirebaseAnalyticsProvider",
 				dependencies: [
 					.product(name: "GXCoreModule_Common_Analytics", package: "GXCoreModule_Common_Analytics"),
-					.product(name: "FirebaseAnalytics", package: "firebase-ios-sdk"),
+					.product(name: "FirebaseAnalytics", package: "firebase-ios-sdk",  condition: .when(platforms: [.iOS, .tvOS])),
 				],
 				path: "Sources/AnalyticsProivder"),
 		.target(name: "FirebaseCrashlyticsProvider",
