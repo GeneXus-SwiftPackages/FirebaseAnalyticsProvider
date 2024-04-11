@@ -64,6 +64,7 @@ extension GXFirebaseAnalyticsService: GXAnalyticsService {
 	public func trackView(_ name: String) {
 		#if os(iOS)
 		Analytics.logEvent(AnalyticsEventScreenView, parameters: [
+			AnalyticsParameterScreenName: name,
 			AnalyticsParameterScreenClass: "gx_view"
 		])
 		#else
