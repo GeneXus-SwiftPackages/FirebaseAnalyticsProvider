@@ -1,7 +1,7 @@
-// swift-tools-version: 5.7
+// swift-tools-version: 5.9
 import PackageDescription
 
-let GX_FC_LAST_VERSION = Version("1.3.0-beta")
+let GX_FC_LAST_VERSION = Version("2.0.0-beta")
 
 let package = Package(
 	name: "FirebaseProviders",
@@ -15,7 +15,7 @@ let package = Package(
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreModule_Common_Analytics.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreModule_SD_RemoteConfig.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
-		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "8.7.0"))
+		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "10.24.0"))
 	],
 	targets: [
 		.target(name: "FirebaseAnalyticsProvider",
