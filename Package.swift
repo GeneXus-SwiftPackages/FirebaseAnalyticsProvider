@@ -1,11 +1,11 @@
 // swift-tools-version: 5.9
 import PackageDescription
 
-let GX_FC_LAST_VERSION = Version("2.0.0-beta")
+let GX_FC_LAST_VERSION = Version("3.0.0-beta")
 
 let package = Package(
 	name: "FirebaseProviders",
-	platforms: [.iOS(.v12), .tvOS(.v12), .watchOS(.v7)],
+	platforms: [.iOS(.v13), .tvOS(.v13), .watchOS(.v9)],
 	products: [
 		.library(name: "FirebaseAnalyticsProvider", targets: ["FirebaseAnalyticsProvider"]),
 		.library(name: "FirebaseCrashlyticsProvider", targets: ["FirebaseCrashlyticsProvider"]),
