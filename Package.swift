@@ -5,7 +5,7 @@ let GX_FC_LAST_VERSION = Version("3.0.0-beta")
 
 let package = Package(
 	name: "FirebaseProviders",
-	platforms: [.iOS(.v13), .tvOS(.v13), .watchOS(.v9)],
+	platforms: [.iOS(.v15), .tvOS("18.0"), .watchOS(.v10)],
 	products: [
 		.library(name: "FirebaseAnalyticsProvider", targets: ["FirebaseAnalyticsProvider"]),
 		.library(name: "FirebaseCrashlyticsProvider", targets: ["FirebaseCrashlyticsProvider"]),
