@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/abseil-cpp-binary.git",
       "state" : {
-        "revision" : "748c7837511d0e6a507737353af268484e1745e2",
-        "version" : "1.2024011601.1"
+        "revision" : "194a6706acbd25e4ef639bcaddea16e8758a3e27",
+        "version" : "1.2024011602.0"
       }
     },
     {
@@ -14,8 +14,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/app-check.git",
       "state" : {
-        "revision" : "7d2688de038d5484866d835acb47b379722d610e",
-        "version" : "10.19.0"
+        "revision" : "3b62f154d00019ae29a71e9738800bb6f18b236d",
+        "version" : "10.19.2"
       }
     },
     {
@@ -23,8 +23,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/firebase-ios-sdk.git",
       "state" : {
-        "revision" : "42eae77a0af79e9c3f41df04a23c76f05cfdda77",
-        "version" : "10.24.0"
+        "revision" : "eca84fd638116dd6adb633b5a3f31cc7befcbb7d",
+        "version" : "10.29.0"
       }
     },
     {
@@ -32,8 +32,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleAppMeasurement.git",
       "state" : {
-        "revision" : "51ba746a9d51a4bd0774b68499b0c73ef6e8570d",
-        "version" : "10.24.0"
+        "revision" : "fe727587518729046fc1465625b9afd80b5ab361",
+        "version" : "10.28.0"
       }
     },
     {
@@ -41,8 +41,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleDataTransport.git",
       "state" : {
-        "revision" : "a732a4b47f59e4f725a2ea10f0c77e93a7131117",
-        "version" : "9.3.0"
+        "revision" : "a637d318ae7ae246b02d7305121275bc75ed5565",
+        "version" : "9.4.0"
       }
     },
     {
@@ -50,8 +50,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/GoogleUtilities.git",
       "state" : {
-        "revision" : "bc27fad73504f3d4af235de451f02ee22586ebd3",
-        "version" : "7.12.1"
+        "revision" : "57a1d307f42df690fdef2637f3e5b776da02aad6",
+        "version" : "7.13.3"
       }
     },
     {
@@ -68,8 +68,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/gtm-session-fetcher.git",
       "state" : {
-        "revision" : "0382ca27f22fb3494cf657d8dc356dc282cd1193",
-        "version" : "3.4.1"
+        "revision" : "a2ab612cb980066ee56d90d60d8462992c07f24b",
+        "version" : "3.5.0"
       }
     },
     {
@@ -77,8 +77,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git",
       "state" : {
-        "revision" : "968fd157efe27694220182f8c44b8495636ae7dd",
-        "version" : "3.0.0-beta.2"
+        "revision" : "84a588385caad23efec1e7d1c8dfef3622fe1140",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -86,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXCoreModule_Common_Analytics.git",
       "state" : {
-        "revision" : "17ef1233c7a8be615c908c86a3a77727aa63f732",
-        "version" : "3.0.0-beta.2"
+        "revision" : "6b61e587528f55ab1b86cb88b1908f1562c5b030",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -95,8 +95,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXCoreModule_SD_RemoteConfig.git",
       "state" : {
-        "revision" : "482df4ab3436e952f78182c6399ce2d745b1cb6a",
-        "version" : "3.0.0-beta.2"
+        "revision" : "6d7625508fee68e18f35ecdf2718b8dedc7ae72a",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -104,8 +104,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXCoreUI.git",
       "state" : {
-        "revision" : "167d4d509066672f5b53dcaa696b66156629b0a1",
-        "version" : "3.0.0-beta.2"
+        "revision" : "94d8c008ff27609d4ed81821999c2f369ba06a59",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -113,8 +113,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXDataLayer.git",
       "state" : {
-        "revision" : "5d82d02cf965b7558da09a13d2c7f2cff212b35f",
-        "version" : "3.0.0-beta.2"
+        "revision" : "aebe718a7231929d3f00eb742e6fc7617e5480b8",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -122,8 +122,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXFoundation.git",
       "state" : {
-        "revision" : "9e714e4154c39d23a7d2cfa2a8124ebbcf078980",
-        "version" : "3.0.0-beta.2"
+        "revision" : "c7bce144682016bf6e8f28d2270a288eaa807708",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -131,8 +131,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXObjectsModel.git",
       "state" : {
-        "revision" : "936da7b4688ef32213aacb44d87b84a305fcb896",
-        "version" : "3.0.0-beta.2"
+        "revision" : "9fdaaaf5ab5c3c5c48d3a42585ffa9da536a9118",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -140,8 +140,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/GXStandardClasses.git",
       "state" : {
-        "revision" : "042605cdcd393e59d35b0e5693e0b9538b4b637e",
-        "version" : "3.0.0-beta.2"
+        "revision" : "b2ad5a6d2526f8833b82c79528852fac32bf5a1d",
+        "version" : "3.0.0-rc.15"
       }
     },
     {
@@ -158,8 +158,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/leveldb.git",
       "state" : {
-        "revision" : "9d108e9112aa1d65ce508facf804674546116d9c",
-        "version" : "1.22.3"
+        "revision" : "a0bc79961d7be727d258d33d5a6b2f1023270ba1",
+        "version" : "1.22.5"
       }
     },
     {
@@ -167,8 +167,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/firebase/nanopb.git",
       "state" : {
-        "revision" : "819d0a2173aff699fb8c364b6fb906f7cdb1a692",
-        "version" : "2.30909.0"
+        "revision" : "b7e1104502eca3a213b46303391ca4d3bc8ddec1",
+        "version" : "2.30910.0"
       }
     },
     {
@@ -176,8 +176,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
       "state" : {
-        "revision" : "e70e889c0196c76d22759eb50d6a0270ca9f1d9e",
-        "version" : "2.3.1"
+        "revision" : "540318ecedd63d883069ae7f1ed811a2df00b6ac",
+        "version" : "2.4.0"
       }
     },
     {
@@ -185,8 +185,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/apple/swift-protobuf.git",
       "state" : {
-        "revision" : "65e8f29b2d63c4e38e736b25c27b83e012159be8",
-        "version" : "1.25.2"
+        "revision" : "ebc7251dd5b37f627c93698e4374084d98409633",
+        "version" : "1.28.2"
       }
     },
     {
@@ -194,8 +194,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/GeneXus-SwiftPackages/YAJL.git",
       "state" : {
-        "revision" : "aeaae2542bbba09477eb846a392b58355f90c225",
-        "version" : "3.0.0-beta.2"
+        "revision" : "038775df45886bd26cf10248640a4ee3ba2f6f33",
+        "version" : "3.0.0-rc.15"
       }
     }
   ],
