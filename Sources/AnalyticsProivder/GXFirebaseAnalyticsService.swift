@@ -92,6 +92,14 @@ extension GXFirebaseAnalyticsService: GXAnalyticsService {
 		if let customParameters {
 			parameters.merge(customParameters) { (_, second) in second }
 		}
+        
+        // Send the special "items" item as an array of dictionaries instead of a string
+		// Ref: https://firebase.google.com/docs/reference/kotlin/com/google/firebase/analytics/FirebaseAnalytics.Param#ITEMS()
+        if let itemsString = parameters[AnalyticsParameterItems] as? String,
+           let itemsData = itemsString.data(using: .utf8),
+           let itemsDict = try? JSONSerialization.jsonObject(with: itemsData, options: []) as? [[String: Any]] {
+            parameters[AnalyticsParameterItems] = itemsDict
+        }
 		
 		Analytics.logEvent(eventName, parameters: parameters)
 #else
