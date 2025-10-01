@@ -15,7 +15,7 @@ let package = Package(
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreBL.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreModule_Common_Analytics.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
 		.package(url: "https://github.com/GeneXus-SwiftPackages/GXCoreModule_SD_RemoteConfig.git", .upToNextMajor(from: GX_FC_LAST_VERSION)),
-		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "11.13.0"))
+		.package(url: "https://github.com/firebase/firebase-ios-sdk.git", .upToNextMajor(from: "12.3.0"))
 	],
 	targets: [
 		.target(name: "FirebaseAnalyticsProvider",
